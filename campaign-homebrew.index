@@ -4,13 +4,13 @@
 		<name>Campaign Homebrew</name>
 		<description>The content from campaigns I have been part of.</description>
 		<author>Campaign Homebrew</author>
-		<update version="0.0.1">
-			<file name="campaign-homebrew.index" url="" />
+		<update version="0.0.2">
+			<file name="campaign-homebrew.index" url="https://raw.githubusercontent.com/mineramc/homebrew_aurora_dnd/master/campaign-homebrew.index" />
 		</update>
 	</info>
 	<files>
-		<file name="gemhallow.index" url="" />
-		<file name="sapphire_point.index" url="" />
-		<file name="fey_wanderers.index" url="" />
+		<file name="gemhallow.index" url="https://raw.githubusercontent.com/mineramc/homebrew_aurora_dnd/master/campaign-homebrew/gemhallow.index" />
+		<file name="sapphire_point.index" url="https://raw.githubusercontent.com/mineramc/homebrew_aurora_dnd/master/campaign-homebrew/sapphire_point.index" />
+		<file name="fey_wanderers.index" url="https://raw.githubusercontent.com/mineramc/homebrew_aurora_dnd/master/campaign-homebrew/fey_wanderers.index" />
 	</files>
 </index>

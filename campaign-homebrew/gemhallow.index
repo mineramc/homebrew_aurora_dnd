@@ -3,12 +3,12 @@
 	<info>
 		<name>Gemhallow Campaign Items</name>
         <description>Items from the Gemhallow Campaign.</description>
-		<update version="0.0.1">
-			<file name="gemhallow.index" url="https://raw.githubusercontent.com/mineramc/aurora_dnd_items/master/gemhallow.index" />
+		<update version="0.0.2">
+			<file name="gemhallow.index" url="https://raw.githubusercontent.com/mineramc/homebrew_aurora_dnd/master/campaign-homebrew/gemhallow.index" />
 		</update>
 	</info>
 	<files>		
 		<!-- Items -->
-		<file name="gemhallow_items.xml" url="https://raw.githubusercontent.com/mineramc/aurora_dnd_items/master/gemhallow/gemhallow_items.xml"/>
+		<file name="gemhallow_items.xml" url="https://raw.githubusercontent.com/mineramc/homebrew_aurora_dnd/master/campaign-homebrew/gemhallow/gemhallow_items.xml"/>
 	</files>
 </index>

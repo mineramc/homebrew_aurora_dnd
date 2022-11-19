@@ -2,8 +2,8 @@
 <elements>
     <info>
         <name>Gemhallow Campaign Items</name>
-        <update version="0.0.1">
-            <file name="gemhallow_items.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/Untitled-1" />
+        <update version="0.0.2">
+            <file name="gemhallow_items.xml" url="https://raw.githubusercontent.com/mineramc/homebrew_aurora_dnd/master/campaign-homebrew/gemhallow/gemhallow_items.xml" />
         </update>
     </info>
 

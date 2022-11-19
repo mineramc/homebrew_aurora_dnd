@@ -3,12 +3,12 @@
 	<info>
 		<name>Fey Wanderers Campaign Items</name>
         <description>Items from the Fey Wanderers Campaign.</description>
-		<update version="0.0.1">
-			<file name="fey_wanderers.index" url="" />
+		<update version="0.0.2">
+			<file name="fey_wanderers.index" url="https://raw.githubusercontent.com/mineramc/homebrew_aurora_dnd/master/campaign-homebrew/fey_wanderers.index" />
 		</update>
 	</info>
 	<files>		
 		<!-- Items -->
-		<file name="fey_wanderers.xml" url=""/>
+		<file name="fey_wanderers.xml" url="https://raw.githubusercontent.com/mineramc/homebrew_aurora_dnd/master/campaign-homebrew/fey_wanderers/fey_wanderers.xml"/>
 	</files>
 </index>

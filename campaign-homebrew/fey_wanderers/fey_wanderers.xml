@@ -3,7 +3,7 @@
     <info>
         <name>Fey Wanderers Campaign Items</name>
         <update version="0.0.1">
-            <file name="fey_wanderers.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/Untitled-1" />
+            <file name="fey_wanderers.xml" url="https://raw.githubusercontent.com/mineramc/homebrew_aurora_dnd/master/campaign-homebrew/fey_wanderers/fey_wanderers.xml" />
         </update>
     </info>
 
