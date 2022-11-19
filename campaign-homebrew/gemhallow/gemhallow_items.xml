@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+    <info>
+        <name>Gemhallow Campaign Items</name>
+        <update version="0.0.1">
+            <file name="gemhallow_items.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/Untitled-1" />
+        </update>
+    </info>
+
+
+    <!-- Theodas Custom Items -->
+    <element name="Leathers of the First Champion" type="Magic Item" source="Gemhallow Campaign Items" id="ID_GEMHALLOW_FIRST_CHAMPIONS_ARMOR">
+        <supports>ID_INTERNAL_ARMOR_GROUP_LIGHT</supports>
+        <description>
+            <p>This worn armor is composed from sturdy but flexible studded leather, reinforced with close-set rivets, and resembles the armor of the First Champion of the Raven Queen.  At will, the armor can adopt the colors that are in accordance with the wearer’s vocation. </p>
+            <p>Once per dawn, these Leathers can cast the <em>Sending</em> spell to one’s superiors, whether that is a Shadar-Kai, a Champion of the Raven Queen, or the Raven Queen herself. You can send the message across any distance and even to other planes of existence, with no consequence for sending to another plane so long as the recipient is one of your superiors and/or is within the Shadowfell.</p>
+        </description>
+        <setters>
+            <set name="category">Magic Armor</set>
+            <set name="cost" currency="gp">350</set>
+            <set name="type" addition="light">Armor</set>
+            <set name="rarity">Uncommon</set>
+			<set name="slot">body</set>
+            <set name="armorClass">13 + Dex modifier</set>
+            <set name="weight" lb="13">13 lb.</set>
+        </setters>
+		<rules>
+			<stat name="ac:armored:enhancement" value="1" />
+            <grant type="Spell" id="ID_PHB_SPELL_SENDING" />
+		</rules>
+    </element>
+    
+    <!-- magic ammunition -->
+	<element name="Anti-Magic Arrow" type="Magic Item" source="Gemhallow Campaign Items" id="ID_GEMHALLOW_ANTI_MAGIC_ARROW">
+		<description>
+			<p>Embedded within this projectile’s tip is one milligram of Theoumite.  The projectile has five charges.  On a hit, the Theoumite within dispels all arcanic spells and effects within 20ft of the projectile’s impact.  Once all five charges are spent, the Theoumite dust instantly returns to the Rune Society’s reserves, and the projectile becomes a normal projectile. 
+            </p>
+		</description>
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="type">Wondrous Items</set>
+            <set name="cost" currency="gp">50005</set>
+			<set name="rarity">Legendary</set>
+			<set name="stackable">true</set>
+			<set name="charges">5</set>
+		</setters>
+	</element>
+	<element name="Returning Arrow" type="Magic Item" source="Gemhallow Campaign Items" id="ID_GEMHALLOW_RETURNING_ARROW">
+		<description>
+			<p>After this projectile finds its mark, the projectile will vanish in a mild puff of smoke and return to the wielder’s quiver or other projectile container.  Each Returning Projectile must spend at least one hour in the quiver or container they’re intended to return to, in a way attuning to that quiver or container.  This attunement must be completed only when the projectile exchanges hands, such as when it is bought and sold, or if the wielder begins using a different quiver or container.  The projectile will always return to the last quiver or container it had attuned to.</p>
+		</description>
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="type">Wondrous Items</set>
+            <set name="cost" currency="gp">110</set>
+			<set name="arrity">Uncommon</set>
+			<set name="stackable">true</set>
+		</setters>
+	</element>
+	<element name="Silence Arrow" type="Magic Item" source="Gemhallow Campaign Items" id="ID_GEMHALLOW_SILENCE_ARROW">
+		<description>
+			<p>Behind the pointed tip of the projectile, a small fog-filled glass pearl encases a portion of the projectile’s shaft. If this projectile is some sort of bullet or otherwise small projectile, this pearl rests behind the projectile’s intended area of impact (for example the bullet’s tip or the flat/sharp surface of a pebble). After the projectile finds its mark, the pearl shatters and casts <em>Silence</em>.</p>
+            <p>Once the pearl is shattered, the projectile becomes a normal projectile.  However, the projectile is specially made so as to then be refitted with a new pearl.</p>
+			<p><em>Silence (2nd level Illusion):</em></p>
+			<p>For the duration, no sound can be created within or pass through a 20-foot-radius sphere centered on a point you choose within range. Any creature or object entirely inside the sphere is immune to thunder damage, and creatures are deafened while entirely inside it. Casting a spell that includes a verbal component is impossible there.</p>
+        </description>
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="type">Wondrous Items</set>
+            <set name="cost" currency="gp">245</set>
+			<set name="arrity">Uncommon</set>
+			<set name="stackable">true</set>
+		</setters>
+	</element>
+	<element name="Desperation Arrow" type="Magic Item" source="Gemhallow Campaign Items" id="ID_GEMHALLOW_DESPERATION_ARROW">
+		<description>
+			<p>This red projectile bestows its wielder with a +4 bonus to attack and damage rolls when the wielder or one of the wielder's companions has less than a quarter of their hit points remaining.</p>
+        </description>
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="type">Wondrous Items</set>
+            <set name="cost" currency="gp">132</set>
+			<set name="arrity">Uncommon</set>
+			<set name="stackable">true</set>
+		</setters>
+	</element>
+	<element name="Mindslap Arrow" type="Magic Item" source="Gemhallow Campaign Items" id="ID_GEMHALLOW_MINDSLAP_ARROW">
+		<description>
+			<p>In addition to this purple projectile's normal damage, an attack made with this projectile does an additional 1d8 psychic damage. Furthermore, on a hit, the target has disadvantage on Wisdom saving throws until their next turn.</p>
+        </description>
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="type">Wondrous Items</set>
+            <set name="cost" currency="gp">67</set>
+			<set name="arrity">Common</set>
+			<set name="stackable">true</set>
+		</setters>
+	</element>
+
+</elements>

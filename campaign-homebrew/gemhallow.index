@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<index>
+	<info>
+		<name>Gemhallow Campaign Items</name>
+        <description>Items from the Gemhallow Campaign.</description>
+		<update version="0.0.1">
+			<file name="gemhallow.index" url="https://raw.githubusercontent.com/mineramc/aurora_dnd_items/master/gemhallow.index" />
+		</update>
+	</info>
+	<files>		
+		<!-- Items -->
+		<file name="gemhallow_items.xml" url="https://raw.githubusercontent.com/mineramc/aurora_dnd_items/master/gemhallow/gemhallow_items.xml"/>
+	</files>
+</index>

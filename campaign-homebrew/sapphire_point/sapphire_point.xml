@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+    <info>
+        <name></name>
+        <update version="0.0.1">
+            <file name="sapphire_point.xml" url="https://raw.githubusercontent.com/aurorabuilder/elements/master/Untitled-1" />
+        </update>
+    </info>
+
+    <element name="Staff of the Seasons" type="Magic Item" source="Sapphire Point Campaign Items" id="ID_DROO_ITEM_SEASON_STAFF">
+        <description>
+            <p><em>(Requires Attunement)</em></p>
+            <p>An ancient wooden staff that seems to radiate cold arcane energy and seems to be attuned to the season of winter.</p>
+            <p>The staff has 4 charges which can be expended to cast the following spells and restores 1d4 charges at dawn:</p>
+            <p> <em>(1 Charge)</em> Chromatic Orb (Cold), Fog Cloud, Ice Knife
+                <em>(2 Charges)</em> Snilloc's Snowball Storm, Gust of Wind, Dragon's Breath (Cold)
+                <em>(3 Charges)</em> Sleet Storm, Elemental Weapon (Cold), Wind Wall
+            </p>
+            <p> The staff seems to be dormant in some way, perhaps further use will reveal more about its nature. </p>
+        </description>
+        <setters>
+            <set name="category">Staffs</set>
+            <set name="cost" currency="gp">0</set>
+            <set name="type">Staff</set>
+            <set name="slot">onehand</set>
+            <set name="attunement">true</set>
+            <set name="weapon">Quarterstaff</set>
+            <set name="charges">4</set>
+        </setters>
+        <rules>
+            <grant type="Spell" id="ID_PHB_SPELL_CHROMATIC_ORB"/>
+            <grant type="Spell" id="ID_PHB_SPELL_FOG_CLOUD"/>
+            <grant type="Spell" id="ID_XGTE_SPELL_ICE_KNIFE"/>
+            <grant type="Spell" id="ID_XGTE_SPELL_SNILLOCS_SNOWBALL_SWARM"/>
+            <grant type="Spell" id="ID_PHB_SPELL_GUST_OF_WIND"/>
+            <grant type="Spell" id="ID_XGTE_SPELL_DRAGONS_BREATH"/>
+            <grant type="Spell" id="ID_PHB_SPELL_SLEET_STORM"/>
+            <grant type="Spell" id="ID_PHB_SPELL_ELEMENTAL_WEAPON"/>
+            <grant type="Spell" id="ID_PHB_SPELL_WIND_WALL"/>
+        </rules>
+    </element>
+    
+    <element name="Blade of Arcturis (The Spellsword)" type="Magic Item" source="Sapphire Point Campaign Items" id="ID_DROO_ITEM_ARCTURIS_BLADE">
+        <description>
+            <p><em>(Requires Attunement)</em></p>
+            <p>A magical sword hilt capable of channeling arcane energy to form a magical blade.</p>
+            <p>While attuned to this weapon, the wielder can expend a 1st level spell slot to create an arcane blade. The sword, when activated, is a +1 weapon and counts as a magical weapon. The wielder can choose what type of damage the blade delivers. The wielder can also choose what type of blade is formed from these options: Longsword, rapier, greatsword, shortsword, dagger. The weapon than uses the statistics of its type of weapon.</p>
+        </description>
+        <setters>
+            <set name="category">Magic Weapons</set>
+            <set name="cost" currency="gp">0</set>
+            <set name="type" addition="rapier">Weapon</set>
+            <set name="slot">onehand</set>
+            <set name="attunement">true</set>
+            <set name="weapon">Rapier</set>
+            <set name="enhancement">1</set>
+        </setters>
+    </element>
+
+    <element name="Blade of Arcturis (The Spellsword) - Crystal Infused" type="Magic Item" source="Sapphire Point Campaign Items" id="ID_DROO_ITEM_ARCTURIS_BLADE_INFUSED">
+        <description>
+            <p><em>(Requires Attunement)</em></p>
+            <p>A magical sword hilt capable of channeling arcane energy to form a magical blade.</p>
+            <p>While attuned to this weapon, the wielder can expend a 1st level spell slot to create an arcane blade. The sword, when activated, is a +1 weapon and counts as a magical weapon. The wielder can choose what type of damage the blade delivers. THe wielder can also choose what type of blade is formed from these options: Longsword, rapier, greatsword, shortsword, dagger. The weapon than uses the statistics of its type of weapon.</p>
+            <p>Infusing the Blade of Arcturis with the Green Catalyst Crystal Cluster has enhanced the spell channeling power of the item. The blade now counts as a +2 Weapon and the Blade now has 3 charges which can be used to cast the spell Chaos Bolt using the wielder's spellcasting statistics. Each charge can be used to cast the spell at first level or more can be expended at the same time to upcast it up to third level (one charge counting as one level upcast.) Additionally, if the damage type rolled from the spell matches with the current damage type of the weapon, the spell automatically jumps to another target as described in the spell regardless of matching d8s.</p>
+        </description>
+        <setters>
+            <set name="category">Magic Weapons</set>
+            <set name="cost" currency="gp">0</set>
+            <set name="type" addition="rapier">Weapon</set>
+            <set name="slot">onehand</set>
+            <set name="attunement">true</set>
+            <set name="weapon">Rapier</set>
+            <set name="enhancement">2</set>
+        </setters>
+        <rules>
+            <grant type="Spell" id="ID_XGTE_SPELL_CHAOS_BOLT"/>
+        </rules>
+    </element>
+
+    <element name="Silver Coin of Duvra" type="Magic Item" source="Sapphire Point Campaign Items" id="ID_DROO_ITEM_DUVRA_COIN">
+        <description>
+            <p>The arcane coin seems to be capable of bestowing great luck or misfortune on those that flip it.</p>
+            <br />
+            <p>Before using the coin, the user can pick an ability score that they would like to attempt to boost. After picking this ability score, roll a d4. If the result is 3 or 4, the user is blessed with a +3 to all rolls<em>(including attacks and saving throws)</em> that are associated with that score. IF the result is a 1 or 2, the user suffers a -3 to all rolls. This effect lasts until the next dawn. This ability can be used once, and recharges each dawn.</p>
+        </description>
+        <setters>
+            <set name="category">Wondrous Items</set>
+            <set name="cost" currency="gp">0</set>
+            <set name="type">Wondrous Item</set>
+        </setters>
+    </element>
+    <element name="Ouroborus Ring" type="Magic Item" source="Sapphire Point Campaign Items" id="ID_DROO_MAGIC_ITEM_OUROBORUS_RING">
+        <description>
+            <p>A silver serpent twists around itself three times to form the shape of this ring. Its tail is bitten by its jeweled head. While wearing this ring, when a creature that you can see (including yourself) rolls a d20, you can use your reaction to speak the ring's command word and roll a d8. You make this decision after knowing the result of the roll, but before the GM declares the outcome.</p>
+            <br />
+            <p>When you do, you alter the number rolled on the d20, before any modifiers are added to it. You can choose to either add or subtract the number you rolled on the d8 to or from the d20. The d20 is treated as if it had originally rolled the altered number. If the d8 would cause the number rolled on the d20 to be greater than 20 or less than 1, continue to count up or down as if the next number after 20 were 1, or the number below 1 were 20. For example, a creature rolls a 19 on its d20 for an attack roll against you, before any modifiers are added to the roll. You use your reaction to roll a 4 on the d8 and add it to the 19, causing the d20 to be treated as if it had rolled a 3.</p>
+            <br />
+            <p>You can use this ability once per long rest</p>
+            <p class="indent"></p>
+        </description>
+        <setters>
+            <set name="category">Wondrous Items</set>
+            <set name="cost" currency="gp">0</set>
+            <set name="weight" lb="0">0 lb.</set>
+            <set name="slot">ring</set>
+            <set name="type">Ring</set>
+            <set name="attunement" addition="by a Wizard, Sorcerer, or Warlock">true</set>
+        </setters>
+    </element>
+    <element name="Quicksilver Clay" type="Magic Item" source="Sapphire Point Campaign Items" id="ID_DROO_MAGIC_ITEM_QUICKSILVER_CLAY">
+        <description>
+            <p>This malleable orb can be morphed and molded to form the shape of other objects.</p>
+            <br />
+            <p>The user can choose to form the quicksilver orb into any small object that can fit into the user's hand. General shapes can be done at will, but for intricate and more complicated shapes, the user must have seen the object beforehand. For example, a user could form the orb into the shape of a small bust of a person they are looking for <em>(and have seen)</em> to show to others.</p>
+            <p class="indent"></p>
+        </description>
+        <setters>
+            <set name="category">Wondrous Items</set>
+            <set name="cost" currency="gp">0</set>
+            <set name="weight" lb="0">0 lb.</set>
+            <set name="type">Wondrous Item</set>
+        </setters>
+    </element>
+    
+</elements>

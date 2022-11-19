@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<index>
+	<info>
+		<name>Fey Wanderers Campaign Items</name>
+        <description>Items from the Fey Wanderers Campaign.</description>
+		<update version="0.0.1">
+			<file name="fey_wanderers.index" url="" />
+		</update>
+	</info>
+	<files>		
+		<!-- Items -->
+		<file name="fey_wanderers.xml" url=""/>
+	</files>
+</index>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<index>
+	<info>
+		<name>Sapphire Point Campaign Items</name>
+        <description>Items from the Sapphire Point Campaign.</description>
+		<update version="0.0.1">
+			<file name="sapphire_point.index" url="" />
+		</update>
+	</info>
+	<files>		
+		<!-- Items -->
+		<file name="sapphire_point.xml" url=""/>
+	</files>
+</index>

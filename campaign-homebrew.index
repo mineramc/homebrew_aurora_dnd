@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<index>
+	<info>
+		<name>Campaign Homebrew</name>
+		<description>The content from campaigns I have been part of.</description>
+		<author>Campaign Homebrew</author>
+		<update version="0.0.1">
+			<file name="campaign-homebrew.index" url="" />
+		</update>
+	</info>
+	<files>
+		<file name="gemhallow.index" url="" />
+		<file name="sapphire_point.index" url="" />
+		<file name="fey_wanderers.index" url="" />
+	</files>
+</index>

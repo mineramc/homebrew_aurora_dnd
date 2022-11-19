@@ -1,0 +1,11 @@
+core
+core/*
+core.index
+supplements
+supplements/*
+supplements.index
+unearthed-arcana.index
+unearthed-arcana
+unearthed-arcana/*
+user
+user/*

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+    <info>
+        <name>Fey Wanderers Campaign Items</name>
+        <update version="0.0.1">
+            <file name="fey_wanderers.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/Untitled-1" />
+        </update>
+    </info>
+
+    <!-- Wondrous Items -->
+    <element name="Gloves of Allomancy" type="Magic Item" source="Fey Wanderers Campaign Items" id="ID_FEYWANDERERS_ALLOMANCY_GLOVES">
+        <supports>ID_INTERNAL_ARMOR_GROUP_LIGHT</supports>
+        <description>
+            <p>The Wielder can use an action to Push or Pull metals within 120 feet. This force follows newton’s laws, so if you push on something heavier than you you may be thrown backwards, etc. The glove is strong enough to move a medium creature up to 40ft in one turn, shoot out a coin fast enough to deal 1d10+spell modifier piercing damage, or push a 500lb block of metal 10 ft. Pushes/Pulls must be towards or away from the glove. The glove works on all non-magical metals, regardless of magnetism.</p>
+        </description>
+        <setters>
+            <set name="category">Wondrous Items</set>   
+            <set name="type">Wondrous Items</set>
+            <set name="rarity">Rare</set>
+			<set name="slot">hands</set>
+            <set name="attunement">true</set>
+        </setters>
+    </element>
+    <element name="Gauntlets of Ogre Power" type="Magic Item" source="Fey Wanderers Campaign Items" id="ID_FEYWANDERERS_OGRE_POWER_GAUNTLETS">
+        <description>
+            <p>These gauntlets provide the wielder with the strength of an ogre, increasing their strength score by 4 up to a maximum of 24.</p>
+        </description>
+        <setters>
+            <set name="category">Wondrous Items</set>   
+            <set name="type">Wondrous Items</set>
+            <set name="rarity">Rare</set>
+			<set name="slot">hands</set>
+            <set name="attunement">true</set>
+        </setters>
+        <rules>
+			<stat name="strength" value="4" />
+			<stat name="strength:max" value="4" />
+		</rules>
+    </element>
+    <element name="Ring of Future sight" type="Magic Item" source="Fey Wanderers Campaign Items" id="ID_FEYWANDERERS_FUTURE_SIGHT_RING">
+        <description>
+            <p>Each day, the user can roll 1 d20, recording the result. At any point during the day, as a reaction, the user can replace the result of any d20 rolled within 30 feet with the recorded value. The user can do this after the dice has been rolled, but before the result is known. The ring looks like a small crystal ball, and distant shapes can be seen moving in it from time to time.</p>
+        </description>
+        <setters>
+            <set name="category">Wondrous Items</set>
+            <set name="cost" currency="gp">0</set>
+            <set name="weight" lb="0">0 lb.</set>
+            <set name="slot">ring</set>
+            <set name="rarity">Rare</set>
+            <set name="type">Ring</set>
+            <set name="attunement">true</set>
+        </setters>
+    </element>
+</elements>
