@@ -4,7 +4,7 @@
 		<name>Campaign Homebrew</name>
 		<description>The content from campaigns I have been part of.</description>
 		<author>Campaign Homebrew</author>
-		<update version="0.0.2">
+		<update version="0.0.3">
 			<file name="campaign-homebrew.index" url="https://raw.githubusercontent.com/mineramc/homebrew_aurora_dnd/master/campaign-homebrew.index" />
 		</update>
 	</info>

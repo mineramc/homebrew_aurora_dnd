@@ -2,7 +2,7 @@
 <elements>
     <info>
         <name>Gemhallow Campaign Items</name>
-        <update version="0.0.2">
+        <update version="0.0.3">
             <file name="gemhallow_items.xml" url="https://raw.githubusercontent.com/mineramc/homebrew_aurora_dnd/master/campaign-homebrew/gemhallow/gemhallow_items.xml" />
         </update>
     </info>
@@ -53,7 +53,7 @@
 			<set name="category">Wondrous Items</set>
 			<set name="type">Wondrous Items</set>
             <set name="cost" currency="gp">110</set>
-			<set name="arrity">Uncommon</set>
+			<set name="rarity">Uncommon</set>
 			<set name="stackable">true</set>
 		</setters>
 	</element>
@@ -68,7 +68,7 @@
 			<set name="category">Wondrous Items</set>
 			<set name="type">Wondrous Items</set>
             <set name="cost" currency="gp">245</set>
-			<set name="arrity">Uncommon</set>
+			<set name="rarity">Uncommon</set>
 			<set name="stackable">true</set>
 		</setters>
 	</element>
@@ -80,7 +80,7 @@
 			<set name="category">Wondrous Items</set>
 			<set name="type">Wondrous Items</set>
             <set name="cost" currency="gp">132</set>
-			<set name="arrity">Uncommon</set>
+			<set name="rarity">Uncommon</set>
 			<set name="stackable">true</set>
 		</setters>
 	</element>
@@ -92,8 +92,30 @@
 			<set name="category">Wondrous Items</set>
 			<set name="type">Wondrous Items</set>
             <set name="cost" currency="gp">67</set>
-			<set name="arrity">Common</set>
+			<set name="rarity">Common</set>
 			<set name="stackable">true</set>
+		</setters>
+	</element>
+	<element name="Bag of Smold'ring" type="Magic Item" source="Gemhallow Campaign Items" id="ID_GEMHALLOW_SMOLDRING_BAG">
+		<description>
+			<p>This arcanic side bag is composed of sturdy leather, warm to the touch, and a maroon strap. This Bag of Smold'ring functions as a Bag of Holding, with the additional ability to keep the goods contained inside warm indefinitely. The user can use theri action and focus on the arcana surrounding the Bag to make it hot indefinitely. Spending another action reverts the Bag back to its warm setting. If used cleverly, the Bag can be used to warm and bake consumable items.</p>
+		</description>
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="type">Wondrous Items</set>
+            <set name="cost" currency="gp">501</set>
+			<set name="rarity">Rare</set>
+		</setters>
+	</element>
+	<element name="Star Stone (unknown effects)" type="Magic Item" source="Gemhallow Campaign Items" id="ID_GEMHALLOW_STARSTONE_UNKNOWN_EFFECT">
+		<description>
+			<p>This unassuming, dull grey stone is carved in the shape of a heptagram, a seven-pointed star. Etched into each point of the star is a different ancient rune, of which are yet to be deciphered. When held in the moonlight, the Stone glows a beautiful translucent blue-white.</p>
+		</description>
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="type">Wondrous Items</set>
+            <set name="cost" currency="gp">?</set>
+			<set name="rarity">Artifact (Minor)</set>
 		</setters>
 	</element>
 
